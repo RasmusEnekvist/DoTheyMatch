@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterDesign.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Do they match?</title>
+    <link rel="stylesheet" href="stylesheet/StyleSheet.css" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+    <form id="aspForm" runat="server">
+        <div id="mainContainer">
+            <div id="header">
+                <asp:Image runat="server" ImageUrl="~/Images/header.png" />
+                <div id="nav">
+                    <ul>
+                        <li><a id="A1" class="start" href="~/Default.aspx" runat="server">Startsidan</a></li>
+                        <li><a id="A2" class="match" href="~/comparePage.aspx" runat="server">Koppla data</a></li>
+                        <li><a id="A3" class="list" href="~/ListOfLinkedData.aspx" runat="server">Lista färdiga kopplingar</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="footer">
+                <p>
+                    projektet är skapat under licensen CC-BY<br />
+                    För att erhålla en kopia besök:
+                    <br/>
+                     <a href="https://github.com/RasmusEnekvist/DoTheyMatch" target="_blank">GitHub</a>
+                </p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
