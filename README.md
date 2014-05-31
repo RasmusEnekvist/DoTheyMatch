@@ -2,7 +2,7 @@ DoTheyMatch?
 ===========
 Please observe that Riksantikvarieämbetets(The Swedish National Heritage Boards) SPARQL-endpoint is a test server at the moment, there can be some downtime on their server without any notice, And the performance is not the best.
 This is a school project that was created by Rasmus Enekvist and Madeleien Ericsson with help from Riksantikvarieämbetet Visby.
-The project is released under creativecommons [CC-BY]( http://creativecommons.org/licenses/by/3.0/legalcode.txt) licenses.
+The project is released under Creative Commons [CC-BY]( http://creativecommons.org/licenses/by/3.0/legalcode.txt) licenses.
 The project is an ASP website project that helps to link architects from Riksantikvarieämbetet with persons from Libris (National Library of Sweden). For gathering data from the two sources mentioned above we choose to use SPARQL to query there data. This is possible because they booth supply a SPARQL-endpoint. 
 
 ##Installation##
