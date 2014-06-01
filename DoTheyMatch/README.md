@@ -11,6 +11,6 @@ The application needs a MySQL server with the database found in MySQLScript.sql 
 If you have any questions or ideas don´t hesitate to contact us either here on GitHub or by email: 
 
 Rasmus.Enekvist.4300@student.uu.se
-Madeleine.Eriksson.7505@student.uu.se
+Madeleine.Eriksson.7505@student.uu.se 
 
 
