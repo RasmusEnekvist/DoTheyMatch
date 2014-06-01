@@ -42,7 +42,7 @@ public partial class _Default : System.Web.UI.Page
     /// Handle click on a NotTheSame link, and display the data
     /// </summary>
     /// <param name="sender">The object that triggerd the listener</param>
-    /// <param name="e">Event Arguments</param>
+    /// <param name="e">Event Arguments</param> 
     protected void ClickNotTheSame(object sender, GridViewCommandEventArgs e)
     {
         int index = Convert.ToInt32(e.CommandArgument);
