@@ -46,8 +46,8 @@ public partial class _Default : System.Web.UI.Page
     protected void ClickNotTheSame(object sender, GridViewCommandEventArgs e)
     {
         int index = Convert.ToInt32(e.CommandArgument);
-        Session["raaid"] = ListOfLinked.Rows[index].Cells[1].Text;
-        Session["librisid"] = ListOfLinked.Rows[index].Cells[2].Text;
+        Session["raaid"] = ListOfNotCorrect.Rows[index].Cells[1].Text;
+        Session["librisid"] = ListOfNotCorrect.Rows[index].Cells[2].Text;
         Session["same"] = false;
         Response.Redirect("~/Evaluate.aspx");
     }
