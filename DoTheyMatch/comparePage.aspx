@@ -62,10 +62,10 @@
                 <b>Externlänk:</b>
                 <asp:HyperLink runat="server" ID="linkWiki"></asp:HyperLink>
             </p>
-            <p><b>Böcker om:</b></p>
+            <p><b>Böcker av:</b></p>
             <asp:Panel runat="server" CssClass="panel" ID="panelBooksBy">
             </asp:Panel>
-            <p><b>Böcker av</b>:</p>
+            <p><b>Böcker om</b>:</p>
             <asp:Panel runat="server" CssClass="panel" ID="panelBooksAbout">
             </asp:Panel>
 
